@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="assets\images\Mitchell_Resume.png" alt="Mitchell Bassett" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Mitchell Bassett">Mitchell Bassett</h1>
+          <p class="title">Digital Marketing Specialist</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:bassettmitchell7@gmail.com" class="contact-link">bassettmitchell7@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+18604492487" class="contact-link">+1 (860) 449-2487</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">August 10, 1992</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Uncasville, Connecticut, USA</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+      </div>
+    </aside>
+
+    <!-- main-content -->
+    <div class="main-content">
+
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link="about">About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="resume">Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="portfolio">Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="contact">Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I am a Digital Marketing Specialist with over four years of experience in SEO, growth marketing, and community building. My passion lies in enhancing online presence, driving user engagement, and generating leads through data-driven strategies. I have worked with diverse clients to help them achieve their marketing goals, ensuring they stand out in competitive markets.
+          </p>
+          <p>
+            My journey in digital marketing began with a strong interest in understanding consumer behavior and leveraging data to create impactful marketing campaigns. Over the years, I have honed my skills in SEO, content strategy, and analytics, consistently delivering results that exceed expectations. My approach is always tailored to the unique needs of each client, focusing on building strong relationships and delivering value.
+          </p>
+          <p>
+            In addition to my professional experience, I am continuously learning and adapting to new trends in the digital marketing landscape. I believe in the power of collaboration and strive to work closely with clients to achieve their vision. Whether it's optimizing a website for search engines, crafting compelling content, or analyzing performance metrics, I am dedicated to driving success for my clients.
+          </p>
+        </section>
+
+        <!-- service -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">SEO Optimization</h4>
+                <p class="service-item-text" style="color: white;">
+                  Implementing advanced SEO strategies to increase organic traffic and improve search engine rankings.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content Strategy</h4>
+                <p class="service-item-text" style="color: white;">
+                  Creating data-driven content strategies to engage audiences and drive conversions.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Analytics & Reporting</h4>
+                <p class="service-item-text" style="color: white;">
+                  Utilizing analytics tools to track performance and optimize marketing campaigns.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Digital Marketing</h4>
+                <p class="service-item-text" style="color: white;">
+                  Crafting and executing comprehensive digital marketing strategies to boost brand awareness and drive sales.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Blockchain Enthusiast</h4>
+                <p class="service-item-text" style="color: white;">
+                  Passionate about Web3 and blockchain technology, I developed the "Degen Raffle" project on the Solana network, focusing on continued learning and innovation.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python Development</h4>
+                <p class="service-item-text" style="color: white;">
+                  Learning Python, I earned the "Crash Course on Python" certificate from Coursera, and developed various projects to enhance my coding skills.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics</h4>
+                <p class="service-item-text" style="color: white;">
+                  Currently taking courses in data analytics to strengthen my ability to interpret data and drive informed marketing strategies.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Growth Marketing</h4>
+                <p class="service-item-text" style="color: white;">
+                  Specializing in growth marketing, I develop and execute strategies to accelerate business growth, focusing on customer acquisition, retention, and engagement.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- RESUME -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="skill" style="margin-bottom: 30px;">
+          <h3 class="h3 skills-title">My Skills</h3>
+          <p class="skills-list content-card" style="text-align: center;">
+            SEO | Content Strategy | Data Analysis | Google Analytics | Strategic Growth Marketing | Team Management | Social Media Management | Rebranding | Content Creation | Digital Marketing | Lead Generation | Market Research | Campaign Management | Branding | B2B Marketing | Project Management | Web Analytics | Technical Partnerships | Cross-Functional Collaboration | Customer Engagement | User Acquisition | Retention Strategies | Market Analysis | WordPress | ClickFunnels | HTML | CSS | Wix | Squarespace | Canva | Python | Excel | Google Sheets
+          </p>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Founder & Digital Marketing Specialist</h4>
+              <span>Jan 2021 — Present</span>
+              <p class="timeline-text" style="color: white;">
+                Riverbend Digital Solutions
+                <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                  <li>&#x2022; Developed and executed strategic growth marketing initiatives that significantly enhanced online presence, customer engagement, and B2B partnerships.</li>
+                  <li>&#x2022; Managed cross-functional teams to optimize product development and campaign execution, leveraging SEO, SEM, and SMM strategies to improve results.</li>
+                  <li>&#x2022; Cultivated strategic partnerships with technology vendors and service providers, improving project outcomes and business scalability.</li>
+                  <li>&#x2022; Led rebranding initiatives for several clients, ensuring a cohesive and compelling brand identity across various social media platforms.</li>
+                  <li>&#x2022; Oversaw social media presence, creating and curating content using tools like Canva to drive engagement and growth.</li>
+                  <li>&#x2022; Designed and implemented data-driven growth marketing strategies for user acquisition and retention, incorporating Google Ads and web analytics.</li>
+                  <li>&#x2022; Planned and executed digital marketing campaigns, including content marketing, B2B events, and lead generation strategies.</li>
+                  <li>&#x2022; Conducted market research to stay informed about industry trends, the competitive landscape, and the evolving needs of the B2B sector.</li>
+                  <li>&#x2022; Worked closely with partnerships and technical teams to align marketing efforts with business goals and ensure compliance with regulations.</li>
+                </ul>
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Lineman/Apprentice Lineman</h4>
+              <span>Oct 2015 — Jul 2021</span>
+              <p class="timeline-text" style="color: white;">
+                Various Companies
+                <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                  <li>&#x2022; Developed critical communication and problem-solving skills, ensuring high performance under pressure.</li>
+                  <li>&#x2022; Applied technical skills to enhance operational efficiency and improve project delivery timelines, demonstrating strong analytical capabilities.</li>
+                </ul>
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Montville High School</h4>
+              <span>Sep 2006 — Jul 2010</span>
+              <p class="timeline-text">
+                Montville, CT
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Southeast Lineman Training Center</h4>
+              <span>Apr 2015 — Aug 2015</span>
+              <p class="timeline-text">
+                Trenton, GA
+              </p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <!-- PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>SEO</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Blockchain</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web Design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Python</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Research/White Papers</button>
+            </li>
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>SEO</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Blockchain</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web Design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Python</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Research/White Papers</button>
+              </li>
+            </ul>
+          </div>
+          <div class="project-list" style="display: flex; flex-wrap: wrap; gap: 20px;">
+            <!-- SEO Case Studies -->
+      <div class="project-item active" data-filter-item data-category="SEO" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <figure class="project-img">
+            <img src="./assets/images/Screenshot 2023-08-01 111327.png" alt="SEO Case Study 1" loading="lazy">
+          </figure>
+          <h3 class="project-title">SEO Case Study 1</h3>
+          <p class="project-category">SEO</p>
+          <p class="project-description">
+            This case study showcases the SEO performance metrics for a website over a specified period. Key statistics include:
+            <ul>
+              <li>Total Clicks: 50</li>
+              <li>Total Impressions: 4.55K</li>
+              <li>Average CTR: 1.1%</li>
+              <li>Average Position: 47.6</li>
+            </ul>
+            The performance graph indicates a notable peak in impressions and clicks around mid-July. This spike can be attributed to the implementation of targeted SEO strategies such as keyword optimization and content marketing. The data highlights a consistent presence in search results, with daily fluctuations suggesting ongoing engagement and visibility efforts.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-item active" data-filter-item data-category="SEO" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <figure class="project-img">
+            <img src="./assets/images/Screenshot 2024-07-29 170015.png" alt="SEO Case Study 2" loading="lazy">
+          </figure>
+          <h3 class="project-title">SEO Case Study 2</h3>
+          <p class="project-category">SEO</p>
+          <p class="project-description">
+            This case study provides a comparative analysis of the website's performance over two consecutive three-month periods. Key improvements observed include:
+            <ul>
+              <li>Total Clicks: Increased from 282 to 426, marking a 51% growth.</li>
+              <li>Total Impressions: Surged from 32.6K to 120K, reflecting a 268% increase.</li>
+              <li>Average CTR: Improved from 0.9% to 0.4%, demonstrating enhanced targeting and user engagement.</li>
+              <li>Average Position: Improved from 66.2 to 52.5, indicating better search engine rankings.</li>
+            </ul>
+            The performance graph underscores a significant upward trend in impressions and clicks, particularly in the latest period. This growth can be attributed to comprehensive SEO initiatives including technical SEO enhancements, improved site speed, and a robust content strategy that increased the site's relevance and authority.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-item active" data-filter-item data-category="SEO" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <figure class="project-img">
+            <img src="./assets/images/Screenshot 2024-07-29 170109.png" alt="SEO Case Study 3" loading="lazy">
+          </figure>
+          <h3 class="project-title">SEO Case Study 3</h3>
+          <p class="project-category">SEO</p>
+          <p class="project-description">
+            This case study illustrates the SEO performance for a six-month period, focusing on comparing the recent data to the previous six months. Notable metrics include:
+            <ul>
+              <li>Total Clicks: Increased from 82 to 303, representing a 269% rise.</li>
+              <li>Total Impressions: Jumped from 8.24K to 47.1K, a substantial 471% increase.</li>
+              <li>Average CTR: Slightly declined from 1% to 0.6%, reflecting a broader reach in impressions.</li>
+              <li>Average Position: Improved from 44.1 to 36.3, showing better visibility in search results.</li>
+            </ul>
+            The data demonstrates effective SEO strategies that significantly boosted site visibility and user engagement. The steady growth in clicks and impressions highlights the success of content optimization, strategic link building, and regular performance monitoring and adjustments.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-item active" data-filter-item data-category="SEO" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <figure class="project-img">
+            <img src="./assets/images/Screenshot 2024-07-29 170208.png" alt="SEO Case Study 4" loading="lazy">
+          </figure>
+          <h3 class="project-title">SEO Case Study 4</h3>
+          <p class="project-category">SEO</p>
+          <p class="project-description">
+            This case study presents a comprehensive overview of SEO performance over the last six months, compared to the previous six months. Key statistics include:
+            <ul>
+              <li>Total Clicks: Increased from 226 to 473, achieving a 109% growth.</li>
+              <li>Total Impressions: Rose from 51.1K to 61.9K, a 21% increase.</li>
+              <li>Average CTR: Improved from 0.4% to 0.8%, indicating better targeting and content relevance.</li>
+              <li>Average Position: Enhanced from 35.3 to 29.7, showing improved ranking in search results.</li>
+            </ul>
+            The performance graph highlights a consistent upward trend, with marked improvements in impressions and clicks. This can be attributed to the implementation of advanced SEO techniques such as schema markup, improved site architecture, and a focus on high-quality content creation that resonates with the target audience.
+          </p>
+        </div>
+      </div>
+            <!-- Web Design case studies -->
+            <div class="project-item" data-filter-item data-category="Web Design" style="flex: 1 1 calc(50% - 20px);">
+              <div class="project-card">
+                <figure class="project-img">
+                  <img src="./assets/images/Screenshot 2023-07-21 231926.png" alt="Web Design 1" loading="lazy">
+                </figure>
+                <h3 class="project-title">Web Design 1</h3>
+                <p class="project-category">Web Design</p>
+              </div>
+            </div>
+            <div class="project-item" data-filter-item data-category="Web Design" style="flex: 1 1 calc(50% - 20px);">
+              <div class="project-card">
+                <figure class="project-img">
+                  <img src="./assets/images/Screenshot 2023-07-21 231943.png" alt="Web Design 2" loading="lazy">
+                </figure>
+                <h3 class="project-title">Web Design 2</h3>
+                <p class="project-category">Web Design</p>
+              </div>
+            </div>
+            <div class="project-item" data-filter-item data-category="Web Design" style="flex: 1 1 calc(50% - 20px);">
+              <div class="project-card">
+                <figure class="project-img">
+                  <img src="./assets/images/Screenshot 2023-07-25 090758.png" alt="Web Design 3" loading="lazy">
+                </figure>
+                <h3 class="project-title">Web Design 3</h3>
+                <p class="project-category">Web Design</p>
+              </div>
+            </div>
+            <!-- Python projects -->
+      <div class="project-item" data-filter-item data-category="Python" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <figure class="project-img">
+            <img src="./assets/images/Screenshot 2024-08-01 191624.png" alt="To-Do List App" loading="lazy">
+          </figure>
+          <h3 class="project-title">To-Do List App</h3>
+          <p class="project-category">Python</p>
+          <p class="project-description">
+            A simple To-Do List application built with Python and Tkinter. It allows users to add, delete, and mark tasks as done. 
+            <a href="https://github.com/Mitch002/To-Do-List-App/tree/main" target="_blank">View on GitHub</a>
+          </p>
+        </div>
+      </div>
+      <div class="project-item" data-filter-item data-category="Python" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <figure class="project-img">
+            <img src="./assets/images/Screenshot 2024-08-01 191855.png" alt="Blackjack Game" loading="lazy">
+          </figure>
+          <h3 class="project-title">Blackjack Game</h3>
+          <p class="project-category">Python</p>
+          <p class="project-description">
+            A classic Blackjack game implemented in Python. It features a card dealing mechanism and score tracking.
+            <a href="https://github.com/Mitch002/Blackjack" target="_blank">View on GitHub</a>
+          </p>
+        </div>
+      </div>
+      <div class="project-item" data-filter-item data-category="Python" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <figure class="project-img">
+          </figure>
+          <h3 class="project-title">Lead Scraper</h3>
+          <p class="project-category">Python</p>
+          <p class="project-description">
+            A lead scraping tool that extracts business information from YellowPages using Python and BeautifulSoup.
+            <a href="https://github.com/Mitch002/Leadscraper-From-Yellowpages" target="_blank">View on GitHub</a>
+          </p>
+        </div>
+      </div>
+
+        <!-- Degen Raffle project -->
+      <div class="project-item" data-filter-item data-category="Blockchain" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <h3 class="project-title">Degen Raffle Project</h3>
+          <p class="project-category">Blockchain</p>
+          <p class="project-description">
+            Developed "Degen Raffle", an innovative project on the Solana blockchain that allows users to mint unique NFTs serving as raffle tickets. The project leveraged the Hashlips Art Generator to create visually appealing and unique NFT tickets. The backend was powered by Candy Machine V2, enabling robust and scalable smart contracts to handle raffle entries, ticket draws, and prize distributions securely and transparently.
+          </p>
+          <p class="project-description">
+            The project was launched with a strategic marketing campaign targeting niche communities on Crypto Twitter (CT) and Discord, resulting in high engagement and a vibrant community build-up. This approach not only drove initial traffic but also established a sustainable user base, keen on participating in blockchain-based raffles. The campaign effectively demonstrated the practical utility of NFTs beyond art.
+          </p>
+          <div style="display: flex; gap: 10px;">
+            <figure class="project-img" style="width: 150px; height: auto;">
+              <img src="./assets/images/IMG_0639.png" alt="Degen Raffle Project Image 1" loading="lazy" style="width: 100%;">
+            </figure>
+            <figure class="project-img" style="width: 350px; height: auto;">
+              <img src="./assets/images/IMG_0643.jpg" alt="Degen Raffle Project Image 2" loading="lazy" style="width: 100%;">
+            </figure>
+            <figure class="project-img" style="width: 150px; height: auto;">
+              <img src="./assets/images/IMG_0648.jpg" alt="Degen Raffle Project Image 3" loading="lazy" style="width: 100%;">
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <!-- Research/White Papers -->
+      <div class="project-item" data-filter-item data-category="Research/White Papers" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <h3 class="project-title">Innovative AI-Enhanced Content Marketing Campaigns</h3>
+          <p class="project-category">Research/White Papers</p>
+          <p class="project-description">
+            This whitepaper delves into how advanced AI technologies can create groundbreaking content marketing campaigns that drive engagement and deliver significant business results. The paper covers various AI capabilities such as interactive AI-powered quizzes, personalized video content, and dynamic blog posts.
+          </p>
+          <a href="assets/images/Innovative-AI-Enhanced-Content-Marketing-Campaigns.pdf" target="_blank">View PDF</a>
+        </div>
+      </div>
+
+      <div class="project-item" data-filter-item data-category="Research/White Papers" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <h3 class="project-title">AI-Powered Predictive Maintenance in Proof-of-Stake Networks</h3>
+          <p class="project-category">Research/White Papers</p>
+          <p class="project-description">
+            This paper explores the application of AI-powered predictive maintenance in proof-of-stake networks, detailing how machine learning algorithms can predict and prevent potential network issues before they occur, ensuring smoother and more reliable network performance.
+          </p>
+          <a href="assets/images/AI-Powered-Predictive-Maintenance-in-Proof-of-Stake-Networks.pdf" target="_blank">View PDF</a>
+        </div>
+      </div>
+
+      <div class="project-item" data-filter-item data-category="Research/White Papers" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <h3 class="project-title">Increasing Adoption of the MetaMask SDK: Strategies and Best Practices</h3>
+          <p class="project-category">Research/White Papers</p>
+          <p class="project-description">
+            This paper provides strategies and best practices for increasing the adoption of the MetaMask SDK. It covers the benefits of integrating MetaMask into decentralized applications and offers practical advice for developers to enhance user experience and engagement.
+          </p>
+          <a href="assets/images/Increasing-Adoption-of-the-MetaMask-SDK-Strategies-and-Best-Practices.pdf" target="_blank">View PDF</a>
+        </div>
+      </div>
+
+      <div class="project-item" data-filter-item data-category="Research/White Papers" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <h3 class="project-title">Meet Alex: The Modern DeFi Enthusiast</h3>
+          <p class="project-category">Research/White Papers</p>
+          <p class="project-description">
+            This paper profiles Alex Thompson, a typical modern DeFi enthusiast. It provides insights into his demographics, psychographics, investment habits, and online engagement, offering a comprehensive view of the motivations and behaviors driving the DeFi revolution.
+          </p>
+          <a href="assets/images/Meet-Alex-The-Modern-DeFi-Enthusiast.pdf" target="_blank">View PDF</a>
+        </div>
+      </div>
+
+      <div class="project-item" data-filter-item data-category="Research/White Papers" style="flex: 1 1 calc(50% - 20px);">
+        <div class="project-card">
+          <h3 class="project-title">Phala Network Marketing Strategy and Customer Avatar</h3>
+          <p class="project-category">Research/White Papers</p>
+          <p class="project-description">
+            This paper outlines a comprehensive marketing strategy for the Phala Network and details a customer avatar to guide targeted marketing efforts. It includes an analysis of market trends, customer needs, and strategic initiatives to enhance market penetration and user adoption.
+          </p>
+          <a href="assets/images/Phala-Network-Marketing-Strategy-and-Customer-Avatar.pdf" target="_blank">View PDF</a>
+        </div>
+      </div>
+          </div>
+        </section>
+      </article>
+
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-info">
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:bassettmitchell7@gmail.com" class="contact-link">bassettmitchell7@gmail.com</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+18604492487" class="contact-link">+1 (860) 449-2487</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="1982-06-23">August 10, 1992</time>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Uncasville, Connecticut, USA</address>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- custom js link -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    document.querySelectorAll('.navbar-link').forEach(link => {
+      link.addEventListener('click', function () {
+        document.querySelectorAll('.navbar-link').forEach(link => link.classList.remove('active'));
+        this.classList.add('active');
+        const page = this.getAttribute('data-nav-link');
+        document.querySelectorAll('article').forEach(article => article.classList.remove('active'));
+        document.querySelector(`article[data-page="${page}"]`).classList.add('active');
+      });
+    });
+
+    // Filter functionality
+    document.querySelectorAll('[data-filter-btn]').forEach(button => {
+      button.addEventListener('click', function () {
+        document.querySelectorAll('[data-filter-btn]').forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+        const category = this.innerText.toLowerCase();
+        document.querySelectorAll('[data-filter-item]').forEach(item => {
+          if (category === 'all' || item.getAttribute('data-category').toLowerCase() === category) {
+            item.classList.add('active');
+          } else {
+            item.classList.remove('active');
+          }
+        });
+      });
+    });
+
+    document.querySelector('[data-select]').addEventListener('click', function () {
+      this.classList.toggle('active');
+    });
+
+    document.querySelectorAll('[data-select-item]').forEach(item => {
+      item.addEventListener('click', function () {
+        const value = this.innerText;
+        document.querySelector('[data-select-value]').innerText = value;
+        document.querySelector('[data-select]').classList.remove('active');
+        const category = value.toLowerCase();
+        document.querySelectorAll('[data-filter-item]').forEach(filterItem => {
+          if (category === 'all' || filterItem.getAttribute('data-category').toLowerCase() === category) {
+            filterItem.classList.add('active');
+          } else {
+            filterItem.classList.remove('active');
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>
